@@ -1,10 +1,18 @@
-include <stdio.h>
+#include <stdio.h>
+
 /**
-  * main - entry point for the program
-  * Return: returns 0 if program executed successfully
-  */
+ * main - Prints numbers from 0 to 9.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	printf("0123456789\n");
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
+	putchar('\n');
 	return (0);
 }
