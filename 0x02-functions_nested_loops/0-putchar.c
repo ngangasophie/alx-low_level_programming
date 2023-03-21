@@ -1,19 +1,24 @@
-#include "main.h"
+#include <unistd.h>
 
-/**
-  * main - entry point to program
-  *
-  * Return: On success 0
-  */
 int main(void)
 {
-	char mychar[] = "_putchar";
-	int n;
-
-	for (n = 0; n <= 7; n++)
-	{
-		_putchar(mychar[n]);
-	}
-	_putchar('\n');
-	return (0);
+    char c = '_';
+    write(1, &c, 1);
+    c = 'p';
+    write(1, &c, 1);
+    c = 'u';
+    write(1, &c, 1);
+    c = 't';
+    write(1, &c, 1);
+    c = 'c';
+    write(1, &c, 1);
+    c = 'h';
+    write(1, &c, 1);
+    c = 'a';
+    write(1, &c, 1);
+    c = 'r';
+    write(1, &c, 1);
+    c = '\n';
+    write(1, &c, 1);
+    return (0);
 }
