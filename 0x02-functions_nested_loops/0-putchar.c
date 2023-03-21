@@ -1,8 +1,16 @@
 #include <unistd.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: Prints _putchar, followed by a new line
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     char c = '_';
+
     write(1, &c, 1);
     c = 'p';
     write(1, &c, 1);
@@ -20,5 +28,6 @@ int main(void)
     write(1, &c, 1);
     c = '\n';
     write(1, &c, 1);
+
     return (0);
 }
