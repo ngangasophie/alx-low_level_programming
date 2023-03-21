@@ -1,19 +1,13 @@
-#include "main.h"
-
-/**
-  * main - entry point to program
-  *
-  * Return: On success 0
-  */
-int main(void)
-{
-	char mychar[] = "_putchar";
-	int n;
-
-	for (n = 0; n <= 7; n++)
-	{
-		_putchar(mychar[n]);
-	}
-	_putchar('\n');
-	return (0);
-}
+int _putcher(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int  _islower(int c);
+int _ isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bever(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
+void print_times_table(int n);
